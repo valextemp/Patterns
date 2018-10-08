@@ -10,6 +10,7 @@ namespace Pat_01_00_Strategy
     {
         static void Main(string[] args)
         {
+            //
             var sort = new SelectionSort();
             var context = new Context(sort);
             context.Sort();
