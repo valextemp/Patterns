@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pat_01_00_Strategy", "Pat_0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pat_02_00_Template_method", "Pat_02_00_Template_method\Pat_02_00_Template_method.csproj", "{448DED5C-BAB2-4A20-83F5-474DA80521B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pat_02_01_Template_method", "Pat_02_01_Template_method\Pat_02_01_Template_method.csproj", "{764BEB4B-AC95-4C43-A696-30F458CE50E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pat_03_00_Mediator", "Pat_03_00_Mediator\Pat_03_00_Mediator.csproj", "{49934225-ABB2-479D-BAAD-CA46EE4BC41C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{448DED5C-BAB2-4A20-83F5-474DA80521B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{448DED5C-BAB2-4A20-83F5-474DA80521B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{448DED5C-BAB2-4A20-83F5-474DA80521B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{764BEB4B-AC95-4C43-A696-30F458CE50E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{764BEB4B-AC95-4C43-A696-30F458CE50E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{764BEB4B-AC95-4C43-A696-30F458CE50E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{764BEB4B-AC95-4C43-A696-30F458CE50E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49934225-ABB2-479D-BAAD-CA46EE4BC41C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49934225-ABB2-479D-BAAD-CA46EE4BC41C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49934225-ABB2-479D-BAAD-CA46EE4BC41C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49934225-ABB2-479D-BAAD-CA46EE4BC41C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

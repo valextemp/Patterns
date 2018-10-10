@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{324DA499-D4B8-4FD5-B10E-7FD17D45B53F}</ProjectGuid>
+    <ProjectGuid>{49934225-ABB2-479D-BAAD-CA46EE4BC41C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Pat_01_00_Strategy</RootNamespace>
-    <AssemblyName>Pat_01_00_Strategy</AssemblyName>
+    <RootNamespace>Pat_03_00_Mediator</RootNamespace>
+    <AssemblyName>Pat_03_00_Mediator</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,19 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BubbleSort.cs" />
-    <Compile Include="Context.cs" />
-    <Compile Include="InsertionSort.cs" />
+    <Compile Include="Cannery.cs" />
+    <Compile Include="CocreteMediator.cs" />
+    <Compile Include="Colleague.cs" />
+    <Compile Include="Farmer.cs" />
+    <Compile Include="Mediator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SelectionSort.cs" />
-    <Compile Include="Strategy.cs" />
+    <Compile Include="Shop.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Strategy.bmp" />
+    <Content Include="readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
