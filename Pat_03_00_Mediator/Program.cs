@@ -10,7 +10,7 @@ namespace Pat_03_00_Mediator
     {
         static void Main(string[] args)
         {
-            //
+            //new code
             var mediator = new CocreteMediator();
             var farmer = new Farmer(mediator);
             var cannery = new Cannery(mediator);
