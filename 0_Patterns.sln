@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pat_02_01_Template_method",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pat_03_00_Mediator", "Pat_03_00_Mediator\Pat_03_00_Mediator.csproj", "{49934225-ABB2-479D-BAAD-CA46EE4BC41C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pat_04_00_Observer", "Pat_04_00_Observer\Pat_04_00_Observer.csproj", "{40FCAC3D-B4C7-421D-A7D1-824D41F4A2E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{49934225-ABB2-479D-BAAD-CA46EE4BC41C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49934225-ABB2-479D-BAAD-CA46EE4BC41C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49934225-ABB2-479D-BAAD-CA46EE4BC41C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40FCAC3D-B4C7-421D-A7D1-824D41F4A2E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40FCAC3D-B4C7-421D-A7D1-824D41F4A2E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40FCAC3D-B4C7-421D-A7D1-824D41F4A2E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40FCAC3D-B4C7-421D-A7D1-824D41F4A2E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
